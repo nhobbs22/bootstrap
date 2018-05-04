@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <title>Instructor Grid Options</title>
+  <style>
+    .red {
+      background: #FF1939;
+      height: 100px;
+    }
+
+    .yellow {
+      background: #FFEE19;
+      height: 100px;
+    }
+
+    .green {
+      background: #48CDD2;
+      height: 100px;
+    }
+
+    .pink {
+      background: pink;
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- READ: FEEL FREE TO UPDATE COLUMNS TO SHOW HOW THE CHANGE -->
+
+  <!-- AUTO LAYOUT -->
+  <div class="container">
+    <h1>Auto Layout</h1>
+    <div class="row">
+      <div class="col red">
+        4 of 12
+      </div>
+      <div class="col yellow">
+        8 of 12
+      </div>
+      <div class="col green">
+        12 of 12
+      </div>
+    </div>
+  </div>
+  <!-- END AUTOLAYOUT -->
+  <div class="container">
+      <h1>Auto Layout With An Explicit Mixed In</h1>
+      <div class="row">
+          <div class="col red">
+              2 of 12
+          </div>
+          <div class="col yellow">
+              4 of 12
+          </div>
+          <div class="col green">
+              6 of 12
+          </div>
+          <div class="col-6 pink">
+              12 of 12
+          </div>
+      </div>
+  </div>
+
+  <div class="container">
+      <h1>Small Layout for Mobile</h1>
+      <div class="row">
+        <div class="col-sm-4 red">
+          4 of 12
+        </div>
+        <div class="col-sm-4 yellow">
+          4 of 12
+        </div>
+        <div class="col-sm-4 green">
+          4 of 12
+        </div>
+     </div>
+  </div>
+
+  <div class="container">
+      <h1>Medium</h1>
+      <div class="row">
+          <div class="col-md-1 pink">
+              1 of 12
+          </div>
+          <div class="col-md-5 red">
+              5 of 12
+          </div>
+          <div class="col-md-3 yellow">
+              3 of 12
+          </div>
+          <div class="col-md-3 green">
+              3 of 12
+          </div>
+      </div>
+  </div>
+
+  <div class="container">
+      <h1>Large</h1>
+      <div class="row">
+            <div class="col-lg-1 pink">
+                1 of 12
+            </div>
+            <div class="col-lg-5 red">
+                5 of 12
+            </div>
+            <div class="col-lg-3 yellow">
+                3 of 12
+            </div>
+            <div class="col-lg-3 green">
+                3 of 12
+            </div>    
+      </div>
+  </div>
+
+  <div class="container">
+      <h1>Multiple on 1</h1>
+      <div class="row">
+            <div class="col-sm-6 col-md-3 pink">
+                12 default, 6 on sm, 3 on md+
+            </div>
+            <div class="col-sm-6 col-md-3 red">
+                    12 default, 6 on sm, 3 on md+
+            </div>
+            <div class="col-sm-6 col-md-3 yellow"> 
+                    12 default, 6 on sm, 3 on md+               
+            </div>
+            <div class="col-sm-6 col-md-3 green">
+                    12 default, 6 on sm, 3 on md+
+            </div>  
+      </div>
+  </div>
+</body>
+</html>
